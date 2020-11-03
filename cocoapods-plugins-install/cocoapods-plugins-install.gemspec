@@ -1,14 +1,14 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+lib = File.expande_path('../lib', __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH .include?(lib)
 require 'cocoapods-plugins-install/gem_version.rb'
 require 'yaml'
 
 Gem::Specification.new do |spec|
   spec.name          = "cocoapods-plugins-install"
   spec.version       = CocoapodsPluginsInstall::VERSION
-  spec.authors       = ["Eloy Durán"]
-  spec.email         = ["eloy.de.enige@gmail.com"]
+  spec.authors       = ["JaLena Olson"]
+  spec.email         = ["jalena.marie92@gmail.com"]
   spec.summary       = %q{Adds installation powers to cocoapods-plugins, specifically for CocoaPods.app}
   spec.homepage      = "https://github.com/CocoaPods/CocoaPods.app/blob/master/cocoapods-plugins-install"
   spec.license       = "MIT"
